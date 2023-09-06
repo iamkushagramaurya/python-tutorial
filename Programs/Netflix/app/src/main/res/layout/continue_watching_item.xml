@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="110dp"
+    android:layout_height="200dp"
+    android:layout_centerInParent="true"
+    android:layout_marginVertical="10dp"
+    android:layout_marginStart="10dp"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/secondary_bg_dark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/imageSection"
+            android:layout_height="160dp">
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/movie_item1" />
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/image_filter"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:id="@+id/playBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_play_circle" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageSection"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="5dp">
+
+            <ImageView
+                android:id="@+id/infoBtn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_info"
+                app:tint="@color/primary_icon_color" />
+
+            <ImageView
+                android:id="@+id/menuBtn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_menu"
+                app:tint="@color/primary_icon_color" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_below="@id/imageSection"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:layout_height="3dp">
+            <View
+                android:id="@+id/percent"
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:background="@android:color/holo_red_dark"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

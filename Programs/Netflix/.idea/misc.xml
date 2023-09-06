@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/avd_cross_to_tick.xml" value="0.2335" />
+        <entry key="app/src/main/res/drawable/avd_tick_to_cross.xml" value="0.2335" />
+        <entry key="app/src/main/res/drawable/close.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/close_foreground.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/dolby_vision.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/dolby_vision_stroke.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/grey_border_stroke.xml" value="0.259" />
+        <entry key="app/src/main/res/drawable/grey_circle.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic__a0ac8285a997e1c2cea10b2.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic__help_outline.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/ic_appicon.xml" value="0.2365" />
+        <entry key="app/src/main/res/drawable/ic_arrow_right.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/ic_back_btn.xml" value="0.197" />
+        <entry key="app/src/main/res/drawable/ic_backward.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_cancel.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/ic_cast.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/ic_cross.xml" value="0.2335" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/ic_dislike.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/ic_download.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/ic_edit.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_exit_full_screen.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/ic_forward.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_fullscreen.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_hd.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_info.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.235" />
+        <entry key="app/src/main/res/drawable/ic_like.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_liked.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_loved_it.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/ic_mobile_network.xml" value="0.169" />
+        <entry key="app/src/main/res/drawable/ic_movie_name.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/ic_mute.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/ic_notification.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/ic_pause.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_play.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_policy.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/ic_send.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_settings.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/ic_smile.xml" value="0.2915" />
+        <entry key="app/src/main/res/drawable/ic_subtitles.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/ic_tick.xml" value="0.2335" />
+        <entry key="app/src/main/res/drawable/ic_unmute.xml" value="0.167" />
+        <entry key="app/src/main/res/drawable/ic_user.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/movie_filter_rounded_corners.xml" value="0.1385" />
+        <entry key="app/src/main/res/drawable/rounded_transparent.xml" value="0.167" />
+        <entry key="app/src/main/res/drawable/suprise_gradient.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/user_item_bg_red.xml" value="0.2915" />
+        <entry key="app/src/main/res/layout/activity_account_check.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_add_user.xml" value="0.4039792387543253" />
+        <entry key="app/src/main/res/layout/activity_categories.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_demo.xml" value="0.28541666666666665" />
+        <entry key="app/src/main/res/layout/activity_edit_profile.xml" value="0.42915811088295686" />
+        <entry key="app/src/main/res/layout/activity_general_settings.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.28541666666666665" />
+        <entry key="app/src/main/res/layout/activity_my_list.xml" value="0.1234375" />
+        <entry key="app/src/main/res/layout/activity_notification.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_player.xml" value="5.0" />
+        <entry key="app/src/main/res/layout/activity_select_user.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.45791245791245794" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.547244094488189" />
+        <entry key="app/src/main/res/layout/activity_user.xml" value="0.5764596848934198" />
+        <entry key="app/src/main/res/layout/activity_web.xml" value="0.284375" />
+        <entry key="app/src/main/res/layout/add_item.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/categories_item.xml" value="0.5377008652657602" />
+        <entry key="app/src/main/res/layout/continue_watching_item.xml" value="0.9" />
+        <entry key="app/src/main/res/layout/custom_control.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/demo_item.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/download_item.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/exo_player_control_view.xml" value="0.284375" />
+        <entry key="app/src/main/res/layout/fragment_download.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_fast_laught.xml" value="0.28541666666666665" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_new_hot.xml" value="0.28541666666666665" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.28541666666666665" />
+        <entry key="app/src/main/res/layout/indicatoritem.xml" value="3.0" />
+        <entry key="app/src/main/res/layout/large_movie_list_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/movie_filter_item.xml" value="0.75" />
+        <entry key="app/src/main/res/layout/movie_item.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/new_movie_list_item.xml" value="0.28541666666666665" />
+        <entry key="app/src/main/res/layout/notification_item.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/shimmer_movie_item.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/top_searches_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/user_item.xml" value="0.9" />
+        <entry key="app/src/main/res/menu/create_account_menu.xml" value="0.28541666666666665" />
+        <entry key="app/src/main/res/menu/demo_menu_items.xml" value="0.284375" />
+        <entry key="app/src/main/res/menu/download_menu_items.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/home_menu_item.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/menu/media_route_menu_item.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/menu/new_hot_menu_items.xml" value="0.28541666666666665" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_close_circle.xml" value="0.18" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1395" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

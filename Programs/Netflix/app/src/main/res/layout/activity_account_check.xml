@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/cancle"
+        android:layout_width="wrap_content"
+        android:src="@drawable/close"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Ready to watch?"
+            android:textColor="@color/primary_text_color"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:text="Enter your email to create or sign in into your account." />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:elevation="2dp"
+            android:hint="Email"
+            android:minWidth="350dp"
+            app:endIconMode="custom"
+            tools:ignore="HardcodedText">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textInputLayout1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/appicon"
+            android:gravity="center"
+            android:text="GET STARTED"
+            android:textColor="@color/primary_text_color"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_alignParentEnd="true"
+                android:src="@mipmap/ic_close_circle"
+                android:layout_width="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="16dp"
+                android:layout_height="30dp"/>
+        </RelativeLayout>
+    </Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/user_r_v"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/manage_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_r_v"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_edit"
+            app:tint="@color/primary_icon_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:text="Manage Profiles"
+            android:textColor="@color/primary_text_color" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage_profile"
+        android:layout_marginHorizontal="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/notification"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/search_backgound"
+            android:backgroundTint="#5A2F2F2F">
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:id="@+id/autoPlayIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_notification"
+                    app:tint="@color/primary_icon_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp">
+
+                <TextView
+                    android:id="@+id/autoPlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Notifications"
+                    android:textColor="@color/primary_text_color"
+                    android:textFontWeight="1400"
+                    android:textSize="14sp"
+                    tools:ignore="UnusedAttribute" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="@android:color/transparent"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/myList"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/search_backgound"
+            android:backgroundTint="#5A2F2F2F">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_saved"
+                app:tint="@color/primary_icon_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="50dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My List"
+            android:layout_centerVertical="true"
+            android:textColor="@color/primary_text_color"
+            android:textFontWeight="1400"
+            android:textSize="14sp"
+            tools:ignore="UnusedAttribute" />
+
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout></RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/appSettings"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/search_backgound"
+            android:backgroundTint="#5A2F2F2F">
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_settings"
+                    app:tint="@color/primary_icon_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="App Settings"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/primary_text_color"
+                    android:textFontWeight="1400"
+                    android:textSize="14sp"
+                    tools:ignore="UnusedAttribute" />
+
+
+
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="@android:color/transparent"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout></RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/search_backgound"
+            android:backgroundTint="#5A2F2F2F">
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_user"
+                    app:tint="@color/primary_icon_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Account"
+                    android:textColor="@color/primary_text_color"
+                    android:textFontWeight="1400"
+                    android:textSize="14sp"
+                    tools:ignore="UnusedAttribute" />
+
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="@android:color/transparent"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout></RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/search_backgound"
+            android:backgroundTint="#5A2F2F2F">
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic__help_outline"
+                    app:tint="@color/primary_icon_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Help"
+                    android:textColor="@color/primary_text_color"
+                    android:textFontWeight="1400"
+                    android:textSize="14sp"
+                    tools:ignore="UnusedAttribute" />
+
+
+
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="@android:color/transparent"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout></RelativeLayout>
+
+
+    </LinearLayout></ScrollView></RelativeLayout>

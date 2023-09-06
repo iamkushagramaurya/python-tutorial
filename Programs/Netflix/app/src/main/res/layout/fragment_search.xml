@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/searchSection"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/search_backgound">
+        <ImageView
+            android:id="@+id/search_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search"
+            android:layout_centerVertical="true"
+            app:tint="@color/darker_gray" />
+
+        <EditText
+            android:layout_toEndOf="@id/search_Icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:hint="Search"
+            android:gravity="center"
+            android:background="@null"
+            android:layout_centerInParent="true"
+            android:layout_toStartOf="@id/cancel_button"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/cancel_button"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cancel"
+            android:layout_centerVertical="true"
+            app:tint="@color/darker_gray" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/searchSection"
+        android:id="@+id/topSearches"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+        android:text="Top Searches"
+        android:textColor="@color/primary_text_color"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="16dp"
+        android:id="@+id/trending_recycler_view"
+        android:layout_below="@+id/topSearches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/searchSection"
+        android:visibility="gone"
+        android:id="@+id/movieRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

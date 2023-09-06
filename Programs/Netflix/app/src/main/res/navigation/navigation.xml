@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_download"
+        android:name="com.example.netflix.fragments.DownloadsFragment"
+        android:label="DownloadsFragment" />
+    <fragment
+        android:id="@+id/nav_fast"
+        android:name="com.example.netflix.fragments.FastLaughFragment"
+        android:label="FastLaughFragment" />
+    <fragment
+        android:id="@+id/nav_hot"
+        android:name="com.example.netflix.fragments.NewHotFragment"
+        android:label="NewHotFragment" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.netflix.fragments.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.netflix.fragments.SearchFragment"
+        android:label="SearchFragment" />
+</navigation>

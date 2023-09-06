@@ -1,0 +1,3 @@
+Kushagra,100
+Shivam,50
+Shiva,25

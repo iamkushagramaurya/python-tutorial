@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:paddingHorizontal="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who's Watching?"
+        android:textColor="@color/secondary_text_color"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/editBtn"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:text="Edit"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text_color"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexBox"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:alignContent="space_between"
+        app:alignItems="baseline"
+        app:flexWrap="wrap"
+        app:justifyContent="space_around">
+    </com.google.android.flexbox.FlexboxLayout>
+    <LinearLayout
+        android:id="@+id/extra"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/custom_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:id="@+id/cancleBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/cancel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/add_profile"
+                android:textColor="@color/primary_text_color"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/saveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="@string/save" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/imageParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="120dp"
+                    android:src="@drawable/poster3"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:layout_height="120dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/grey_circle"
+                    android:src="@drawable/ic_edit"
+                    android:backgroundTint="@color/primary_text_color"
+                    app:tint="@color/black"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginStart="100dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="wrap_content"
+                android:minWidth="300dp"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:hint="Profile Name"
+                app:endIconMode="custom"
+                tools:ignore="HardcodedText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:text="Children's Profile"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text_color"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:text="Made for children 12 and under, but the parents have all the controls."
+                android:layout_gravity="center"
+                android:textColor="@color/secondary_text_color"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

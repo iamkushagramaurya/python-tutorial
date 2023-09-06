@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/nav_hot"
+        android:title="New &amp; Hot"
+        android:icon="@drawable/ic_album_folder"/>
+    <item
+        android:id="@+id/nav_fast"
+        android:title="Fast Smile"
+        android:icon="@drawable/ic_fast_smile"/>
+    <item
+        android:id="@+id/nav_search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"/>
+    <item
+        android:id="@+id/nav_download"
+        android:title="Download"
+        android:icon="@drawable/ic_download"/>
+</menu>

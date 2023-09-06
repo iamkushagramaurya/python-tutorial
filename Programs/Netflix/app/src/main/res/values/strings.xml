@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Netflix</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_profile">Add Profile</string>
+    <string name="save">Save</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="notification_channel_id" >CHANNEL_ID</string>
+    <string name="app_id">CC1AD845</string>
+    <string name="resume">Resume Download</string>
+    <string name="downlaoding">Downloading</string>
+    <string name="done">Done</string>
+    <string name="edit">Edit</string>
+    <string name="alert">Alert!</string>
+    <string name="alert_invalid_email">Please enter a valid email.</string>
+    <string name="alert_invalid_name">Name can\'t be empty.</string>
+    <string name="alert_invalid_password_length">Password length should be greater than 6.</string>
+    <string name="went_wrong">Something went wrong. Please try again later.</string>
+    <string name="no_internet">Something went wrong. Please try again later.</string>
+</resources>
