@@ -8,4 +8,13 @@ l = list()  #List
 l1 = []  #List
 tup = tuple()
 set = set()
-dic = dict() # you can say it json format
+dic = dict() # you can say it json format\
+
+
+
+i = 2
+
+power = i**10 # get custom power
+
+
+print(power)
